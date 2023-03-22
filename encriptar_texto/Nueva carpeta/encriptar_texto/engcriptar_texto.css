@@ -1,0 +1,196 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background:#F3F5FC;
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+
+    margin: 20px;
+    padding: 50px;
+    background-image:url(tecnologia-futuro880.jpg);
+    width: 1000px;
+    height: 1100px;
+    background-size: cover;
+    
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background-color: rgb(228, 211, 250);
+    height:100px;
+    margin: 10px;
+    border-radius:20px;
+}
+
+.left{
+    float: left;
+    width: 400px;
+    height: 600px;
+    margin: 30px;   
+    border-radius: 24px;
+    background-color: rgb(133, 133, 253);
+
+}
+.right{
+
+    float: left;
+    width: 400px;
+    height:700px;
+    margin: 30px;
+    border-radius: 24px;
+    background-color: rgb(104, 55, 238);
+    
+
+}
+
+.imgadm{
+
+    width: 30px;
+    vertical-align: middle;
+    margin: 20px;
+    float: left;
+}
+
+    #texto3 {
+        
+    font-size: 20px;
+    color: #f3f6fa;
+    font-weight: bold;
+    float: left;
+   }
+
+   #btn-encriptar{
+
+    
+    width: 130px;
+    height: 70px;
+    border-radius: 24px;
+    font-size: 20px;
+    color: #f3f4f7;
+    background: #0A3871;
+    border: #0A3871;
+    cursor: pointer;
+    box-shadow: 0 9px #999; 
+    transform: translate(7px);
+    
+}
+
+#btn-deencriptar{
+
+    
+    width: 130px;
+    height: 70px;
+    border-radius: 24px;
+    background: #d8dfe8;
+    border: #0A3871;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(4px);
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+    
+    }
+
+
+.logoimg {
+
+    width: 70px;
+    height: 90px;
+    margin: 5px 0px 7px 6px;
+    float: left;
+    border-radius: 20px;
+    }
+
+.title{
+
+        float: left;
+        margin-left: 20%;
+        margin: 20px 20px 40px 50px;
+        font-size: 50px;
+        font-weight: bold;
+        color: #0A3871;
+        font-style:italic;
+        text-align: center;
+     
+    }
+
+.text-input {
+
+        float: inherit;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
+        height: 50%;
+        color: #0A3871;
+        border-radius: 10%;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        background:#F3F5FC;
+    }
+
+#imgder{
+        
+       
+        margin: 10%;
+        width: 320px;
+        height: 200px;
+        position: relative;
+
+    }
+
+#texto2 {
+        
+        color: #0A3871;
+        margin: 25px;
+        font-weight: bold;
+        width: 340px;
+        position: relative;
+        height: 250px;
+        border: none;
+        border-radius: 24px;
+        font-size: 20px;
+        
+        
+    }
+
+
+    #caja-texto{
+
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .btn-copiar {
+    
+    width: 60%;
+    height: 10%;
+    position: relative;
+    margin: 10px 0px 0px 70px;
+    border-radius: 24px;
+    background: #d8dfe8;
+    border: #0A3871;
+    font-size: 30px;
+    font-weight: bold;
+    transform: translate(4px);
+        
+}
+
+/* Estilo para pantallas pequeñas */
+.container {
+    font-size: 24px;
+  }
+  
+  /* Media query para pantallas grandes */
+  @media (min-width: 768px) {
+    .container {
+      font-size: 36px;
+    }
+  }
+  
